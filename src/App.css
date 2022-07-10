@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+}
+
+
+#title{
+  padding-top: 80px;
+  text-align: center;
+  color: #fff;
+  font-size: 48px;
+}
+/*.profile {
+  background-color: antiquewhite;
+  display: inline-block;
+  justify-items: center;
+}*/
+
+.about {
+  display: flex;
+  margin: 60px auto;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  width: 60%;
+}
+
+.about img {
+  width: 200px;
+  height: 200px;
+}
+
+.title {
+    margin-top: 0;
+    background-color: #686aac;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.skill {
+  padding-top: 50px;
+  text-align: center;
+  color: #686aac;
+  font-size: 48px;
+}
+
+.card-container {
+  display: flex;
+  margin: 30px auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  width: 60%;
+  align-items: center;
+}
+
+.bio {
+  font-size: 20px;
+}
+
+.Card {
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  width: 75%;
+  align-items: center;
+  height: 80%;
+  text-align: center;
+}
+
+.Card img {
+  width: 370px;
+  height: 250px;
+}
+
+
+.footer {
+  background-color: #686aac;
+  color: #fff;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
